@@ -53,16 +53,14 @@ Explores erosion-rate and erosion-onset-time combinations to infer plausible **e
 
 ---
 
-## Method overview (short, but honest)
+## Method overview
 - CoRSEEr performs **sigmoidal curve fitting (SCF)** on the experimental LDP first, extracts the plateau magnitude, and **normalises** the measured signal.
 - It runs a forward model solved with an **explicit Euler forward time scheme** on a depth grid.
 - It evaluates misfit between modelled and experimental LDPs using **chi-square**, converts it to a **Gaussian likelihood**, normalises it, and performs **Monte Carlo acceptance** (likelihood thresholded against `rand`).
 
-If you don’t like chi-square + likelihood, that’s fair—nature didn’t “vote” for it. But it is practical, transparent, and reviewer-friendly.
-
 ---
 
-## Input Excel formats (do not freestyle this)
+## Input Excel formats 
 ### General rules (applies to all parts)
 - **Depth values must be unique and non-zero** (duplicates cause interpolation failures).  
   If duplicates are unavoidable, offset one by a tiny amount (e.g., **1e-5 mm**).
@@ -102,7 +100,7 @@ If you don’t like chi-square + likelihood, that’s fair—nature didn’t “
 
 ---
 
-## Outputs (what you get)
+## Outputs
 ### CoRSEEr-I outputs
 1. `var_cal_[SampleName].xlsx` (primary result record)
 2. `.mat` file containing internal variables (full reproducibility)
