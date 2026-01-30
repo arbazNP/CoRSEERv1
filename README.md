@@ -6,7 +6,7 @@ It estimates **kinetic calibration parameters**, **apparent exposure age**, and 
 
 ---
 
-## What CoRSEEr does (2–4 lines)
+## What CoRSEEr does 
 CoRSEEr simulates luminescence signal evolution inside rock through time and depth, compares modelled LDPs with measured LDPs, and selects best solutions by **chi-square misfit** and **likelihood-based sampling**. It runs a **sigmoidal curve fit** before inversion to normalise the LDP and to stabilise the workflow.
 
 ---
@@ -80,7 +80,7 @@ Explores erosion-rate and erosion-onset-time combinations to infer plausible **e
   6. Characteristic dose (Gy) *(e.g., derived from DRC methods such as Murray & Wintle, 2006)*
   7. Known calibration age (years)
 
-**Parameter bounds used in calibration (default concept):**
+**Parameter bounds used in calibration :**
 - Bleaching rate term: **10^-10 to 100 s^-1**
 - Attenuation coefficient **μ:** **0 to 4 mm^-1** (user-editable)
 
