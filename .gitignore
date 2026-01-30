@@ -1,0 +1,36 @@
+# ---- MATLAB / App Designer ----
+*.asv
+*.m~
+*.autosave
+*.bak
+*.tmp
+*.log
+
+# Live scripts and published outputs (keep if you want; remove if you use them)
+*.html
+*.pdf
+
+# MATLAB code generation / caches
+slprj/
+codegen/
+*~.slxc
+*.slxc
+*.slx.r*
+*.mdl.r*
+
+# Simulink / MATLAB cache
+*.mex*
+*.p
+*.mat
+
+# OS + editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+  
+# Local folders you may create
+output/
+results/
+temp/
+  
