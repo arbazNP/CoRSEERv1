@@ -10,6 +10,6 @@ authors:
 version: 0.1.0
 license: MIT
 repository-code: "https://github.com/arbazNP/CoRSEErv1"
-doi: "https://doi.org/10.5281/zenodo.18434547"
-url: "https://zenodo.org/records/18434547"
+doi: https://doi.org/10.5281/zenodo.18434547
+url: https://zenodo.org/records/18434547
 
