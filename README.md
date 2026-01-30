@@ -138,8 +138,8 @@ If you don’t like chi-square + likelihood, that’s fair—nature didn’t “
 ---
 
 ## How to cite
-- **Software (version DOI):** *Add Zenodo DOI after first tagged GitHub Release (vX.Y.Z).*
-- **Software (concept DOI):** *Add Zenodo concept DOI after release.*
+- **Software (version DOI):**  https://doi.org/10.5281/zenodo.18434547
+- **Software (concept DOI):**  https://doi.org/10.5281/zenodo.18434547
 
 Until DOI is minted, cite the GitHub repository and the associated manuscript.
 
