@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "CoRSEEr: Calculator of Rock Surface Exposure Age and Erosion Rates"
+message: "If you use CoRSEEr, please cite this software. For the archival reference, use the Zenodo DOI for the specific release."
+type: software
+authors:
+  - given-names: Arbaz
+    family-names: Pathan
+    affiliation: "Department of Earth Sciences, Indian Institute of Technology Kanpur, India"
+    orcid: "https://orcid.org/0000-0001-7791-030X"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/arbazNP/CoRSEErv1"
