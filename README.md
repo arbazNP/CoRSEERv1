@@ -136,8 +136,8 @@ Explores erosion-rate and erosion-onset-time combinations to infer plausible **e
 ---
 
 ## How to cite
-- **Software (version DOI):**  https://doi.org/10.5281/zenodo.18434547
-- **Software (concept DOI):**  https://doi.org/10.5281/zenodo.18434547
+- **Software (version DOI):**  https://doi.org/10.5281/zenodo.18918899
+- **Software (concept DOI):**  https://doi.org/10.5281/zenodo.18918899
 
 Until DOI is minted, cite the GitHub repository and the associated manuscript.
 
